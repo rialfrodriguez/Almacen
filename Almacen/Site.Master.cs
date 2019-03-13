@@ -9,6 +9,21 @@ namespace Almacen
 {
     public partial class SiteMaster : MasterPage
     {
+        #region Propiedades
+        public HyperLink HyperLinkAlmacenes
+        {
+            get
+            {
+                return hlkAlmacenes;
+            }
+            set
+            {
+                hlkAlmacenes = value;
+            }
+        }
+
+        #endregion
+
         protected void Page_Load(object sender, EventArgs e)
         {
 

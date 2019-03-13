@@ -12,8 +12,8 @@ namespace Almacen
         // For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/SiteJs").Include(
-                            "~/Scripts/Site.js"));
+            bundles.Add(new ScriptBundle("~/bundles/feather").Include(
+                            "~/Scripts/feather.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
                             "~/Scripts/WebForms/WebForms.js",
